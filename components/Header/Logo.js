@@ -2,11 +2,13 @@ import Image from "next/image";
 
 function Logo(){
     return(
-        <Image
-        src='/Logo.svg'
-        height="200px"
-        width="200px"
-        />
+        <button className="absolute pt-1">
+            <Image
+                src='/Logo.svg'
+                height="24px"
+                width="75px"
+            />
+        </button>
     )
 }
 
